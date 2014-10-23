@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		84F0D99619F726A500FC46D0 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F0D99519F726A500FC46D0 /* TaskCell.swift */; };
+		84F0D99819F8733000FC46D0 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F0D99719F8733000FC46D0 /* TaskModel.swift */; };
 		84F155FA19F2ECF0000DA11E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F155F919F2ECF0000DA11E /* AppDelegate.swift */; };
 		84F155FC19F2ECF0000DA11E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F155FB19F2ECF0000DA11E /* ViewController.swift */; };
 		84F155FF19F2ECF0000DA11E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84F155FD19F2ECF0000DA11E /* Main.storyboard */; };
@@ -28,6 +29,7 @@
 
 /* Begin PBXFileReference section */
 		84F0D99519F726A500FC46D0 /* TaskCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		84F0D99719F8733000FC46D0 /* TaskModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
 		84F155F419F2ECF0000DA11E /* TaskIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84F155F819F2ECF0000DA11E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84F155F919F2ECF0000DA11E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -81,6 +83,7 @@
 			children = (
 				84F155F919F2ECF0000DA11E /* AppDelegate.swift */,
 				84F155FB19F2ECF0000DA11E /* ViewController.swift */,
+				84F0D99719F8733000FC46D0 /* TaskModel.swift */,
 				84F0D99519F726A500FC46D0 /* TaskCell.swift */,
 				84F155FD19F2ECF0000DA11E /* Main.storyboard */,
 				84F1560019F2ECF0000DA11E /* Images.xcassets */,
@@ -217,6 +220,7 @@
 			files = (
 				84F155FC19F2ECF0000DA11E /* ViewController.swift in Sources */,
 				84F0D99619F726A500FC46D0 /* TaskCell.swift in Sources */,
+				84F0D99819F8733000FC46D0 /* TaskModel.swift in Sources */,
 				84F155FA19F2ECF0000DA11E /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
