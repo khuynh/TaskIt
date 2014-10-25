@@ -75,7 +75,7 @@
         <!--Task Detail View Controller-->
         <scene sceneID="LQT-1N-wD7">
             <objects>
-                <viewController id="ZML-EJ-cSQ" customClass="TaskDetailViewController" sceneMemberID="viewController">
+                <viewController id="ZML-EJ-cSQ" customClass="TaskDetailViewController" customModule="TaskIt" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="0ev-y1-yYf"/>
                         <viewControllerLayoutGuide type="bottom" id="DR6-bX-YZz"/>
@@ -103,6 +103,11 @@
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
+                    <connections>
+                        <outlet property="dueDatePicker" destination="ZHg-7b-6g4" id="gNJ-ku-OvT"/>
+                        <outlet property="subtaskTextField" destination="DkF-05-x9u" id="p8a-Ol-hjk"/>
+                        <outlet property="taskTextField" destination="WeL-ii-2YR" id="90w-91-dza"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Vbk-Ts-BdH" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

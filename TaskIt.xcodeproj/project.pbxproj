@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		841803B219FC46E10044D72B /* TaskDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841803B119FC46E10044D72B /* TaskDetailViewController.swift */; };
+		84EBBB6819FC5E0400402DC8 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EBBB6719FC5E0400402DC8 /* Date.swift */; };
 		84F0D99619F726A500FC46D0 /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F0D99519F726A500FC46D0 /* TaskCell.swift */; };
 		84F0D99819F8733000FC46D0 /* TaskModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F0D99719F8733000FC46D0 /* TaskModel.swift */; };
 		84F155FA19F2ECF0000DA11E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F155F919F2ECF0000DA11E /* AppDelegate.swift */; };
@@ -30,6 +31,7 @@
 
 /* Begin PBXFileReference section */
 		841803B119FC46E10044D72B /* TaskDetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskDetailViewController.swift; sourceTree = "<group>"; };
+		84EBBB6719FC5E0400402DC8 /* Date.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		84F0D99519F726A500FC46D0 /* TaskCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
 		84F0D99719F8733000FC46D0 /* TaskModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TaskModel.swift; sourceTree = "<group>"; };
 		84F155F419F2ECF0000DA11E /* TaskIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TaskIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -88,6 +90,7 @@
 				841803B119FC46E10044D72B /* TaskDetailViewController.swift */,
 				84F0D99719F8733000FC46D0 /* TaskModel.swift */,
 				84F0D99519F726A500FC46D0 /* TaskCell.swift */,
+				84EBBB6719FC5E0400402DC8 /* Date.swift */,
 				84F155FD19F2ECF0000DA11E /* Main.storyboard */,
 				84F1560019F2ECF0000DA11E /* Images.xcassets */,
 				84F1560219F2ECF0000DA11E /* LaunchScreen.xib */,
@@ -222,6 +225,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				84F155FC19F2ECF0000DA11E /* ViewController.swift in Sources */,
+				84EBBB6819FC5E0400402DC8 /* Date.swift in Sources */,
 				84F0D99619F726A500FC46D0 /* TaskCell.swift in Sources */,
 				84F0D99819F8733000FC46D0 /* TaskModel.swift in Sources */,
 				84F155FA19F2ECF0000DA11E /* AppDelegate.swift in Sources */,
